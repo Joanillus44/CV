@@ -43,7 +43,7 @@ body{
 .hero-accent{color:var(--accent);padding-left:48px}
 .hero-sub{color:var(--muted);margin-top:12px;font-size:18px}
 
-/* Layout: hero area and inline professional about text */
+/* hero area and inline professional about text */
 .hero-grid{display:grid;grid-template-columns:50% 50%;gap:28px;align-items:start}
 .hero-inner{display:flex;flex-direction:column;gap:6px}
 
@@ -55,7 +55,6 @@ body{
 .hero-about-text{transform:translateX(-140px)}
 
 @media (min-width:1100px){
-  /* slightly reduce size on very large screens so line length stays comfortable */
   .hero-role{font-size:28px}
 }
 
@@ -216,7 +215,7 @@ body{
   .project-thumb img{height:120px}
 }
 
-/* Logo / SVG specific tweak: avoid cover crop which can over-zoom logos */
+/* Logo */
 .project-thumb img.logo-thumb{object-fit:contain;padding:14px;background:transparent}
 .project-thumb img.logo-thumb{height:160px}
 @media (max-width:900px){
